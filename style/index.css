@@ -280,10 +280,46 @@ button:hover{
         margin-right: 10%;
         margin-top: 2%;
     }
-    
+    .projects{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .top-gallery{
+        display: flex;
+        justify-content:space-evenly;
+    }
+  .bottom-gallery{
+      display: flex;
+      justify-content: space-evenly;
+  }
     
 }
 @media (max-width: 500px){
-    
-    
+    .projects{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .top-gallery{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+  .bottom-gallery{
+      display: flex;
+      flex-direction: column;
+        justify-content:center;
+        align-items: center;
+  }
+  .footer{
+      display: flex;
+      flex-direction: column;
+      padding: 2%;
+  }
+  button{
+      margin-bottom: 2%;
+  }
 }
